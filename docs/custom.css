@@ -104,3 +104,48 @@
 .wy-menu-vertical p.caption {
     margin-bottom: 8px !important;
 }
+
+/* Banner Superior */
+.banner-topo {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 15px 0 25px 0;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Bloco com grafismo de fundo nas laterais */
+.secao-com-grafismo {
+  position: relative;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+/* Marca d'água/Grafismo Esquerda */
+.secao-com-grafismo .decor-esquerda {
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  width: 90px;
+  opacity: 0.30;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Marca d'água/Grafismo Direita */
+.secao-com-grafismo .decor-direita {
+  position: absolute;
+  right: -10px;
+  top: 10px;
+  width: 100px;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Mantém o texto acima das imagens laterais */
+.secao-com-grafismo .conteudo-texto {
+  position: relative;
+  z-index: 1;
+}
