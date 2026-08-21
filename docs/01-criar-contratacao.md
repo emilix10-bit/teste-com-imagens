@@ -1,8 +1,12 @@
-<div style="text-align: right; margin: 15px 0;">
-  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-    🖨️ Imprimir esta página
-  </button>
+<!-- Botões de Acessibilidade -->
+<div style="text-align: right; margin-bottom: 10px;">
+  <button onclick="aumentarFonte()" class="btn-acessibilidade">A+</button>
+  <button onclick="diminuirFonte()" class="btn-acessibilidade">A-</button>
 </div>
+
+<!-- Banner do Topo -->
+<img src="Imagens/banner-topo.png" class="banner-topo" alt="Banner do Tutorial Pesquisa de Preços">
+
 
 # PROCEDIMENTOS PARA REALIZAÇÃO DE LICITAÇÕES ELETRÔNICAS TRADICIONAIS
 
@@ -12,6 +16,10 @@
 
 Nesta etapa, preencheremos os dados básicos, o fundamento legal e as informações essenciais para a publicação do certame.
 
+<!-- Seção com grafismo na Esquerda -->
+<div class="secao-com-grafismo">
+  <img src="Imagens/lateral-esquerda1.png" class="decor-esquerda" alt="">
+  <div class="conteudo-texto">
 ---
 
 **Passo 1:** Acesse o Portal de Compras do Governo Federal e clique em “Acesso ao Sistema”.
@@ -30,6 +38,10 @@ Nesta etapa, preencheremos os dados básicos, o fundamento legal e as informaç�
 
 ![adicionar descrição de imagem](Imagens/03-Aesso-ao-Novo-DC.png)
 
+<!-- Seção com grafismo na Direita -->
+<div class="secao-com-grafismo">
+  <img src="Imagens/lateral-direita1.png" class="decor-direita" alt="">
+  <div class="conteudo-texto">
 ---
 
 **Passo 4:** E em seguida clique em “+Criar”.
